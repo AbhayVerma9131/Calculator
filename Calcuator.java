@@ -36,7 +36,10 @@ public class BasicCalculator {
 		case '-':
 			o = num1 - num2;
 			break;
-
+		// case to multiply two numbers
+		case '*':
+			o = num1 * num2;
+			break;
 
 		default:
 			System.out.println("You enter wrong input");
