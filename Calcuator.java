@@ -5,7 +5,7 @@ import java.lang.Math;
 import java.util.Scanner;
 
 // Driver class
-public class BasicCalculator {
+public class Calculator {
 	// main function
 	public static void main(String[] args)
 	{
@@ -45,6 +45,14 @@ public class BasicCalculator {
 			o = num1 / num2;
 			break;
 
+		case '*':
+			o = num1 * num2;
+			break;
+
+		// case to divide two numbers
+		case '/':
+			o = num1 / num2;
+			break;
 
 		default:
 			System.out.println("You enter wrong input");
